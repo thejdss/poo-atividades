@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EEE45DCC-04C9-42EC-93E2-0DCBB28F3FC4}</ProjectGuid>
+    <ProjectGuid>{BAFEA5AF-6D71-46AC-B78D-A2AA906076AA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>poo_atividade_1</RootNamespace>
-    <AssemblyName>poo-atividade-1</AssemblyName>
+    <RootNamespace>poo_atividade_4</RootNamespace>
+    <AssemblyName>poo-atividade-4</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alarme.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="Forno.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Questao1.cs" />
-    <Compile Include="questao2.cs" />
-    <Compile Include="Questao3.cs" />
-    <Compile Include="Questao4.cs" />
-    <Compile Include="Questao5.cs" />
-    <Compile Include="Questao6.cs" />
-    <Compile Include="Questao7.cs" />
+    <Compile Include="Relogio.cs" />
+    <Compile Include="Televisao.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

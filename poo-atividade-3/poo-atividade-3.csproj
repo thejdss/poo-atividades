@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EEE45DCC-04C9-42EC-93E2-0DCBB28F3FC4}</ProjectGuid>
+    <ProjectGuid>{4CD0EAB7-1812-4DF2-BBC8-3A14A340F2D2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>poo_atividade_1</RootNamespace>
-    <AssemblyName>poo-atividade-1</AssemblyName>
+    <RootNamespace>poo_atividade_3</RootNamespace>
+    <AssemblyName>poo-atividade-3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Questao1.cs" />
-    <Compile Include="questao2.cs" />
+    <Compile Include="Questao2.cs" />
     <Compile Include="Questao3.cs" />
     <Compile Include="Questao4.cs" />
-    <Compile Include="Questao5.cs" />
-    <Compile Include="Questao6.cs" />
-    <Compile Include="Questao7.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="texto\descontosClientes.txt" />
+    <Content Include="texto\Sequencia1.txt" />
+    <Content Include="texto\Sequencia2.txt" />
+    <Content Include="texto\vendasClientes.txt" />
+    <Content Include="texto\Votos.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
